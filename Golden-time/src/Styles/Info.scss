@@ -1,0 +1,353 @@
+
+@media (min-width: 800px) {
+    .maximum {
+        width: 100%;
+        height: 65vh;
+        margin-top: 20px;
+        border-radius: 20px;
+    }
+
+    .transitions-wrapper {
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        height: 800px;
+        background-color: #e7ecf2;
+        border : 1px solid;
+        border-radius: 20px;
+        border-color:#e7ecf2;
+        opacity: 0.8;
+    }
+
+}
+
+@media (max-width: 800px) {
+    .maximum {
+        width: 100vw;
+        height: 75vh;
+        margin-top: 20px;
+        border-radius: 20px;
+    }
+    .transitions-wrapper {
+        background-color: #e7ecf2;
+        opacity: 0.8;
+    }
+}
+.dummy{
+    width: 100%;
+    height:20px;
+    background-color: white;
+}
+
+
+.titleBox {
+    background-color: #ffffff;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 0 0 6px rgba(112, 112, 112, .1);
+}
+
+
+.Info {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    margin-top: 15px;
+    border: 1px solid;
+    border-radius: 20px;
+    border-color: white;
+    background-color: white;
+}
+
+.aidInfo {
+    width: 80%;
+    height: 230px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    border: 1px solid;
+    border-radius: 20px;
+    border-color: #808080;
+    background-color: white;
+    overflow: auto;
+}
+
+
+.DetailInfo {
+    background-color: white;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    margin-top: 15px;
+    border: 1px solid;
+    border-radius: 20px;
+    border-color: #3385ff;
+    overflow: auto;
+}
+
+.AidInfo {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    margin-top: 10px;
+    border: 1px solid;
+    border-radius: 20px;
+    border-color: #3385ff;
+    overflow: auto;
+}
+
+.InfoList {
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+.aidInfoList{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 90%;
+}
+
+.InfoText {
+    width: 80%;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.aidInfoText {
+    width: 80%;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 0px;
+}
+
+.InfoTextTitle {
+    width: 60%;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.point{
+    list-style-position: outside;
+}
+.buttonlist {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    width: 80%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.InfoButton {
+    width: 100%;
+    font-size: small;
+    font-weight: bold;
+    color: #525252;
+    text-align: center;
+    cursor: pointer;
+}
+
+.InfoButtonCall {
+    background-color: #00DA3D;
+    border-radius: 20px;
+    padding: 5px;
+    border-color: white;
+    border: 1px solid;
+    width: 40%;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.hospitalImage {
+    width: 50%;
+    border-radius: 20px;
+    padding: 8px;
+
+}
+
+.Text {
+    width: 80%;
+    text-align: left;
+}
+
+.DetailInfoText {
+    margin-top: 10px;
+    width: 80%;
+    font-size: 12px;
+    color: red;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.AiFillAlert {
+    margin: 0;
+    min-width: 0;
+    padding: 8px 8px;
+    font-size: inherit;
+    border-radius: 20px;
+    color: inherit;
+    cursor: pointer;
+    background-color: #3385ff;
+}
+
+.DropBoxWrapper {
+    display: flex;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    flex: 1;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
+.LastButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #3385FF;
+    border-radius: 20px;
+    border-color: #3385FF;
+    width: 80%;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.ModalButton {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    border-radius: 20px;
+    border-color: #3385FF;
+    width: 80%;
+    color: #000000;
+    padding: 10px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.Link {
+    text-decoration: none;
+}
+
+.Select {
+    margin: 0;
+    min-width: 0;
+    display: flex;
+    width: 25%;
+    padding: 5px 5px;
+    font-size: 14px;
+    line-height: inherit;
+    border: 1px solid;
+    border-radius: 20px;
+    color: #7c7c7c;
+    text-align: center;
+    background-color: transparent;
+    cursor: pointer;
+
+    &:focus {
+        border-color: 3385ff;
+    }
+}
+
+.chocieText {
+    color: gray;
+    width: 80%;
+    margin: 15px auto 0 auto;
+    display: flex;
+    font-size: medium;
+    font-weight: bold;
+    justify-content: flex-start;
+    align-self: center;
+}
+
+
+.mainSelectList {
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-start;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10px;
+}
+
+.mainSelect {
+    background-color: white;
+    border-radius: 20px;
+    border-color: #3385ff;
+    border: 1px solid;
+    width: 18%;
+    color: #3385ff;
+    text-align: center;
+    margin-right: 10px;
+    padding: 7px;
+    font-size: small;
+    margin-bottom: 15px;
+}
+
+.minimum {
+    width: 80%;
+    height: 280px;
+    margin-left: auto;
+    margin-right: auto;
+    flex: 1;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+.wait{ //지도 렌더링 하는 동안 기다리기 
+    width: 80%;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor : wait;
+}
+.map {
+    width: 80%;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Title {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    width: 80%;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+    border: 2px solid;
+    border-radius: 10px;
+    border-color: #3385ff;
+    padding: 6px;
+    box-sizing: border-box;
+
+}
+
+* {
+    font-family: "apple";
+}
